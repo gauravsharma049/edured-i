@@ -28,7 +28,7 @@ function setcolor(){
         for(let i=0; i<navlink.length; i++){
             navlink[i].style.color = 'white'
         }
-        navimg.src = '/img/logo2.png';
+        navimg.src = '/edured/img/logo2.png';
         darMod.style.boxShadow = '1px 0px 5px white';
         body.style.backgroundColor = '#1e1c1c';
         // body.style.color = 'white';
@@ -49,7 +49,7 @@ function setcolor(){
             
             navlink[i].style.color = '#0e1133';
         }
-        navimg.src = '/img/logo.png';
+        navimg.src = '/edured/img/logo.png';
         darMod.style.boxShadow = '1px 0px 5px black';
         body.style.backgroundColor = 'white';
         body.style.color = 'black';
