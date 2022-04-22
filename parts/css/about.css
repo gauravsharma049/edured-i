@@ -1,0 +1,48 @@
+.w-55{
+    width: 55%;
+}
+.w-45{
+    width: 45%;
+}
+.abcd{
+    /* height: 500vh; */
+    display: flex;
+    flex-wrap: wrap;
+}
+.super-heading{
+    font-size: 25px;
+    font-weight: 600;
+}
+.about-description{
+    font-size: 25px;
+    color: #1c1c2ab3;
+}
+.about-head{
+    font-size: 45px;
+}
+.content{
+    padding-top: 0px;
+}
+
+@media screen and (max-width: 1000px) {
+    .about-description{
+        font-size: 20px;
+    }
+    .about-head{
+        font-size: 35px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .w-45{
+        width: 100%;
+    }
+    .w-55{
+        width: 100%;
+    }
+    .w-45 img{
+        width: 100%;
+        height: auto;
+    }
+    
+}

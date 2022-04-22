@@ -10,89 +10,10 @@
         integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 
     <title>Online Courses - Learn Anything, On Your Schedule | edured</title>
+    <link rel="stylesheet" href="/parts/css/navbar.css">
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/parts/css/footer.css">
-    <link rel="stylesheet" href="/css/navbar.css">
-    <style>
-        .my-btn {
-            display: inline-block;
-            height: 35px;
-            line-height: 1.5rem;
-            vertical-align: middle;
-            text-align: center;
-            padding: 0.375rem 1.2rem;
-            color: #fff;
-            background: #2b4eff;
-            border-radius: 4px;
-            font-weight: 500;
-            font-size: 1rem;
-        }
-
-        .my-btn:hover{
-            background-color: #2c45c4;
-        }
-
-        .navbar {
-            position: sticky;
-            top: 0;
-            left: 0;
-            right: 0;
-            width: 100%;
-            z-index: 11;
-            user-select: none;
-
-
-        }
-
-
-        .navbar-container {
-            padding-right: var(--bs-gutter-x, 7.75rem);
-            padding-left: var(--bs-gutter-x, 7.75rem);
-        }
-
-        @media screen and (max-width: 991px) {
-            .navbar-container {
-                padding-right: var(--bs-gutter-x, .75rem);
-                padding-left: var(--bs-gutter-x, .75rem);
-            }
-
-            .navbar-nav {
-                align-items: unset !important;
-            }
-
-        }
-
-        @media screen and (max-width: 1170px) {
-            .navbar-container {
-                padding-right: var(--bs-gutter-x, .75rem);
-                padding-left: var(--bs-gutter-x, .75rem);
-            }
-
-
-        }
-
-        .nav-item .nav-link {
-            color: #0e1133;
-            font-weight: 500;
-            font-size: 16px;
-        }
-
-        body {
-            font-family: 'Hind', sans-serif;
-            background-color: #b8dde3;
-
-        }
-
-        .navbar-brand div {
-            display: inline;
-            font-size: 27px;
-            font-weight: 700;
-        }
-
-        .navbar-brand div img {
-            height: 40px;
-        }
-    </style>
+    <link rel="stylesheet" href="/parts/css/blog.css">
 
 </head>
 
@@ -126,10 +47,10 @@
                 <ul class="navbar-nav align-items-center ms-auto mb-2 mb-lg-0">
 
                     <li class="nav-item">
-                        <a class="nav-link" id="navbarid" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" id="navbarid" aria-current="page" href="../index.html#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="index.html#courses">Courses</a>
+                        <a class="nav-link" href="../index.html#courses">Courses</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="/parts/blog.html">Blog</a>
@@ -163,73 +84,19 @@
             </div>
         </div>
     </nav>
+    
 
     <div class="content">
-        <br>
-        <div class="cover container">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 w-100">
-                <div class="cover_details col mb-4 rounded-3 ">
-                    <h1>Learn to Code
-                        <br>
-                        for Free
-                    </h1>
-                    <p>
-                        Learn to code with our beginner-friendly tutorials and examples. Read tutorials, try examples,
-                        write programs, and learn to code.
-                    
-                    </p>
-                </div>
-                <div class="cover_photo col mb-4 rounded-3">
-                    <img class="img-fluid" src="/img/learning.png" alt="">
-                </div>
 
-
+        <div class="container cover">
+            <div class="blogContainer">
+                blogs will be written here
             </div>
-
-
         </div>
-        <div class="cover container" id="courses">
-            <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 w-100 m-auto">
-                <div class="courses col mb-4 ">
-                    <h2>Choose what to learn
-                    </h2>
-                    <p>
-                        Start learning popular programming languages.
 
-                    </p>
-                </div>
-                <div class="col mb-4 coursebox">
-                    <div class="row row-cols-1 row-cols-sm-2 row-cols-md-4 w-100 m-auto">
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in">Python <br> programming</div>
-                        </div>
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in">Java <br> Programming</div>
-                        </div>
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in">C <br> Programming</div>
-                        </div>
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in">C++ <br> Programming</div>
-                        </div>
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in">Javascript <br> Programming</div>
-                        </div>
-                        <div class="course_list col mb-4 rounded-3">
-                            <div class="course_list_in m-auto">
-                                <p style="margin-top: 40%; padding-left: 12px;">View all <br> courses <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="blue" class="bi bi-arrow-right" viewBox="0 0 16 16">
-                                    <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8z"/>
-                                  </svg></p>
-                            </div>
 
-                        </div>
-                    </div>
-                    
-                </div>
 
-            </div>
 
-        </div>
 
         <footer class="card-footer text-light">
             <div class="cover container">
@@ -309,17 +176,7 @@
                 </div>
             </div>
         </footer>
-
     </div>
-
-
-    
-
-
-
-
-
-
 
 
 

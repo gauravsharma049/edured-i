@@ -1,0 +1,120 @@
+.content{
+    background-color: #b8dde3;
+    /* height: 98vh; */
+    height: fit-content;
+    max-height: fit-content;
+    padding-top: 50px;
+    box-sizing: border-box;
+    /* box-shadow: 0px 2px 10px #505960; */
+}
+.footer-item{
+    /* height: 500px; */
+    border: .5px solid #4141415c;
+    border-radius: 5px;
+    
+}
+.footer-list{
+    width: 22%;
+}
+.subscribe{
+    width: 34%;
+}
+.card-footer{
+    padding-top: 120px;
+    background-color: #141c3ae6;
+}
+.footer-item h4{
+    font-size: 18px;
+    line-height: 28px;
+}
+.footer-item p, .footer-link-list{
+    color: #c1c1cb;
+}
+.footer-end{
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.subscribe-panel{
+    margin-bottom: 30px;
+    user-select: none;
+}
+.join-btn{
+    color: white;
+    height: fit-content;
+    font-size: 18px;
+    padding: 5px 20px;
+    border-radius: 0 5px 5px 0;
+    border: .5px solid #4141415c;
+    background-color: #2b4eff;
+    position: absolute;
+    font-weight: bold;
+    line-height: 1.5;
+}
+.join-btn:hover{
+    background-color: #2b4eff8a;
+}
+.subscribe-form-input{
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+ul{
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 4px;
+}
+.footer-item ul, .footer-item ol{
+    list-style: none;
+}
+
+.footer-link-list{
+    margin-bottom: 12px;
+}
+.footer-link a{
+    text-decoration: none;
+}
+.footer-link li:hover{
+    color: white;
+}
+.copyright-edured-symbol{
+    font-size: 18px;
+    
+}
+.subscribe_hr{
+    visibility: hidden;
+    width: 108%;
+}
+
+@media screen and (max-width: 991px) {
+    .subscribe{
+        width: 40%;
+    }
+    .footer-list{
+        width: 30%;
+    }
+}
+@media screen and (max-width: 767px) {
+    .subscribe{
+        width: 100%;
+    }
+    .footer-list{
+        width: 50%;
+    }
+    .footer-end{
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        flex-wrap: wrap;
+        line-height: normal;
+    }
+    .subscribe_hr{
+        visibility: visible;
+    }
+}

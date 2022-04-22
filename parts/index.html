@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamically created html elements</title>
+    <style>
+        input,
+        textarea {
+            display: block;
+            width: 100%;
+            margin: 10px auto;
+            font-size: 18px;
+
+        }
+        input{
+            height: 50px;
+        }
+        textarea {
+            height: 200px;
+            resize: vertical;
+        }
+
+        .paragraph-textarea {
+            height: 100px;
+        }
+        #container{
+            width: 50%;
+            margin: auto;
+        }
+        .loadContent {
+            border: 1px solid black;
+            border-radius: 5px;
+            background-color: rgba(81, 84, 86, 0.347);
+            padding: 20px 2em;
+            margin: 2px;
+        }
+        .delBtn{
+            display: inline-block;
+        }
+        .buttons {
+            background-color: rgb(128, 150, 169);
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="buttons">
+        <button>add heading</button>
+        <button>add example</button>
+        <button onclick="addPara()">add paragraph</button>
+    </div>
+    <div id="container">
+
+        <input type="text" name="" id="topic" placeholder="enter topic">
+        <textarea name="" class="addtextarea" id="topicDescription" placeholder="enter topic description"></textarea>
+        <input type="text" name="" id="heading" placeholder="enter heading">
+        <textarea name="" class="addtextarea" id="explainHeading" placeholder="explain the heading"></textarea>
+        <button id="postBtn" onclick="addTopic()" style="display: block; margin:2px auto;">post</button>
+
+    </div>
+
+
+    <script src="/parts/js/index.js"></script>
+</body>
+
+</html>
