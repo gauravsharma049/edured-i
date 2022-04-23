@@ -74,7 +74,7 @@
 @media screen and (max-width: 767px) {
     .blog-card{
         width: 48%;
-        margin: 2px;
+        margin: 2px 2px 30px 2px;
     }
     .blog-content{
         margin: 10px;
