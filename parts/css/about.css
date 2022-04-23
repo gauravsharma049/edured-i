@@ -1,14 +1,22 @@
-.w-55{
+.w-55, .width-55{
     width: 55%;
 }
-.w-45{
+.w-55 p{
+    font-size: 20px;
+}
+.w-45, .width-45{
     width: 45%;
 }
-.abcd{
+.d-flex-wrap{
     /* height: 500vh; */
     display: flex;
     flex-wrap: wrap;
 }
+.d-flex-wrap-reverse{
+    display: flex;
+    flex-wrap: wrap-reverse;
+}
+
 .super-heading{
     font-size: 25px;
     font-weight: 600;
@@ -23,6 +31,9 @@
 .content{
     padding-top: 0px;
 }
+.about-sub-heading{
+    margin-bottom: 20px;
+}
 
 @media screen and (max-width: 1000px) {
     .about-description{
@@ -34,8 +45,22 @@
 }
 
 @media screen and (max-width: 900px) {
+    .width-45{
+        width: 100%;
+    }
+    .width-55{
+        width: 100%;
+    }
+    .width-45 img{
+        width: 100%;
+        height: auto;
+    }
+    
+}
+@media screen and (max-width: 600px) {
     .w-45{
         width: 100%;
+        text-align: center;
     }
     .w-55{
         width: 100%;
@@ -44,5 +69,4 @@
         width: 100%;
         height: auto;
     }
-    
 }
