@@ -88,9 +88,36 @@
     <div class="content">
 
         <div class="cover container">
-            <div class="contact-us">
-                contact us page
+            <div class="container w-75 my-4">
+        <form class="row g-3" id="myForm">
+            <div class="col-md-6">
+              <label for="First_Name" class="form-label">First&nbspName&nbsp<span class="text-danger">*</span></label>
+              <input type="text" name="First_Name" class="form-control" id="inputfName" placeholder="first name" required>
             </div>
+            <div class="col-md-6">
+              <label for="Last_Name" class="form-label">Last&nbspName&nbsp<span class="text-danger">*</span></label>
+              <input type="text" name="Last_Name" class="form-control" placeholder="last name" id="inputLName">
+            </div>
+            <div class="col-md-6">
+              <label for="Email_Address" class="form-label">Email&nbsp<span class="text-danger">*</span></label>
+              <input type="email" name="Email_Address" class="form-control" placeholder="email address" id="inputEmail" >
+            </div>
+            <div class="col-md-6">
+              <label for="Mobile_Number" class="form-label">Mobile&nbspNumber&nbsp</label>
+              <input type="number" name="Mobile_Number" class="form-control" placeholder="Mobile number" id="inputMobNum">
+            </div>
+            <div class="col-md-12">
+              <label for="Description" class="form-label">Your&nbspmessage&nbsp<span class="text-danger">*</span></label>
+              <br>
+              <textarea class="form-control" name="Description" id="describe" rows="10" placeholder="enter Your message"></textarea>
+            </div>
+        </form>
+        <div class="col-12 my-4">
+          <button type="submit" onclick='SubForm()' name="submitbtn" class="btn btn-primary">Submit</button>
+        </div>
+        <div id="formsuccess" class="form-control border-0" style="background-color: transparent ;"></div>
+    </div>
+
         </div>
 
         <footer class="card-footer text-light">
