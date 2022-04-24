@@ -1,6 +1,18 @@
-.contact-us{
-    height: 50vh;
-    background-color: rgba(146, 22, 218, 0.61);
-    margin-bottom: 100px;
-    font-size: 50px;
+.strip{
+    height: 193px;
+    line-height: 193px;
+}
+@media screen and (min-width: 768px) {
+    .strip{
+        height: 293px;
+        line-height: 293px;
+    }
+}
+.boldheading{
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(38, 37, 37);
+}
+.noboxshdo:focus{
+    box-shadow: none;
 }
