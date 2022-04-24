@@ -111,6 +111,13 @@
     transform: scale(1.05);
     /* background-color: pink; */
 }
+.strip{
+    /* padding: 40px 2em; */
+    background: linear-gradient(189.26deg,rgba(255,255,255,.0309103) 9.05%,#b8c9e5 77%),radial-gradient(132.05% 143.89% at 97.59% 121.01%,#eeb8bd 0%,#eeb9be 46.63%,#fff 100%);
+}
+.bg-dim-light{
+    background-color: #cdcdcd99;
+}
 
 @media screen and (max-width: 1139px){
     .courses{
