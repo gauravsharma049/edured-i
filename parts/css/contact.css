@@ -12,6 +12,7 @@
     font-size: 30px;
     font-weight: bold;
     color: rgb(38, 37, 37);
+    user-select: none;
 }
 .noboxshdo:focus{
     box-shadow: none;
